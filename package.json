@@ -1,0 +1,30 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "description": "TypeScript Masterclass Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "ch1": "ts-node chapter-01-introduction/introduction.ts",
+    "ch2": "ts-node chapter-02-basic-types/basic-types.ts",
+    "ch3": "ts-node chapter-03-variables-functions/functions.ts",
+    "ch4": "ts-node chapter-04-objects-interfaces/interfaces.ts",
+    "ch5": "ts-node chapter-05-classes-oop/classes.ts",
+    "ch6_generics": "ts-node chapter-06-advanced-types/generics.ts",
+    "ch6_unions": "ts-node chapter-06-advanced-types/union-types.ts",
+    "ch7": "ts-node chapter-07-modules/main.ts",
+    "ch8": "ts-node chapter-08-error-handling/error-handling.ts",
+    "ch9": "ts-node chapter-09-ai-automation/demo.ts",
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

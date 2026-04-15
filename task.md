@@ -1,0 +1,35 @@
+# TypeScript Masterclass Project Tasks
+
+- `[x]` 1. **Project Setup**
+  - `[x]` Create `TypeScript-Tutorial` directory
+  - `[x]` Initialize npm and `package.json`
+  - `[x]` Install dependencies (TS, ts-node, Playwright, dotenv)
+  - `[x]` Initialize `tsconfig.json`
+- `[x]` 2. **Chapter 1: Introduction to TypeScript**
+  - `[x]` Create chapter folder and file
+  - `[x]` Add setup basics and JS comparison
+- `[x]` 3. **Chapter 2: Basic Types**
+  - `[x]` Create file for types, arrays, any, unknown, etc.
+- `[x]` 4. **Chapter 3: Variables and Functions**
+  - `[x]` Let/const, optional parameters, arrow functions
+- `[x]` 5. **Chapter 4: Objects and Interfaces**
+  - `[x]` Interfaces, type aliases, readonly
+- `[x]` 6. **Chapter 5: Classes and OOP**
+  - `[x]` Classes, modifiers, inheritance, polymorphism
+- `[x]` 7. **Chapter 6: Advanced Types**
+  - `[x]` Union, intersection, generics, enums, type guards
+- `[x]` 8. **Chapter 7: Modules and File Structure**
+  - `[x]` Import/export, best practices
+- `[x]` 9. **Chapter 8: Error Handling and Debugging**
+  - `[x]` Try-catch, type vs runtime errors
+- `[x]` 10. **Chapter 9: AI Automation Concepts**
+  - `[x]` AI mock service setup
+  - `[x]` AI automation examples
+- `[x]` 11. **Chapter 10: QA Automation with Playwright**
+  - `[x]` Setup DemoQA spec files
+  - `[x]` Create POM and test cases
+- `[x]` 12. **Root Structure & Final Documentation**
+  - `[x]` Setup root folders (`src`, `tests`, `utils`, etc.)
+  - `[x]` Create `README.md`
+- `[x]` 13. **Verification**
+  - `[x]` Run test cases and typescript build

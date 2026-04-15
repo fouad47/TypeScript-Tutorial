@@ -1,0 +1,33 @@
+name: TypeScript Masterclass CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install dependencies
+      # We use npm install since we didn't commit a package-lock.json in this simulated run, 
+      # ideally 'npm ci' would be used if package-lock is tracked.
+      run: npm install
+      
+    - name: TypeScript Project Compilation
+      run: npm run build
+      
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps chromium
+      
+    - name: Run Playwright QA Tests
+      run: npm run test
